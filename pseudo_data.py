@@ -22,5 +22,5 @@ for num in range(100):
   data = f'{first} {last}\n{phone}\n{address}\n{email}\n'
   pseudo_data += f'{data}\n'
 
-with open('generated_data.txt', 'w') as f:
+with open('./data/generated_data.txt', 'w') as f:
   f_data = f.write(pseudo_data)

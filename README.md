@@ -1,4 +1,4 @@
-# Generate arbitary peoples data using the python built-in random module.
+# Generate arbitary data using the python random module.
 
 - use an iterator as much you want to generate, I used `range()` method.
 - `choice()` to pick random names, `randint()` to generate phone numbers, zip codes.
